@@ -1,0 +1,110 @@
+.container{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 2px 3px 2px rgb(114, 208, 13);
+    text-shadow: 1px 0px 1px red;
+   
+}
+/*navbar*/
+.navbar{
+background-color: rgb(67, 63, 63);
+
+
+}
+.card{
+ background-color: rgba(62, 21, 84, 0.678);
+ padding: 5px;
+ margin: 5px;
+ border-radius: 5px;
+ text-align: justify;
+}
+h2{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 100px;
+   
+   
+}
+
+
+.list-group{
+    margin: 15px;
+    border: 2px solid greenyellow;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: bisque;
+    
+}
+.a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5px;
+   margin:50%;
+  
+}
+.a:hover{
+    background-color: aqua;
+}
+.btn:hover {
+background-color: rgb(170, 123, 215);
+}
+body{
+    background-color: rgba(66, 63, 70, 0.821);
+}
+@media screen and (max-width: 400px),
+screen and (orientation: landscape){
+    body{
+        background-color:rgba(232, 8, 8, 0.855);
+
+    
+    }
+}
+@media screen and (max-width: 400px),
+screen and (orientation: landscape){
+   .a{
+        background-color:rgba(111, 153, 93, 0.855);
+        margin: 30%;
+
+    
+    }
+}
+@media screen and (max-width: 400px),
+screen and (orientation: landscape){
+   h2{
+        color: rgb(76, 48, 14);
+        background-color: aliceblue;
+    
+    }
+}
+@media screen and (max-width: 400px),
+screen and (orientation: landscape){
+   .container{
+        background-color: rgba(200, 238, 12, 0.442);
+    
+    }
+}
+@media screen and (max-width: 400px),
+screen {
+   .card{
+       background-color: rgb(2, 228, 17);
+    
+    }
+}
+@media screen and (max-width: 400px),
+screen and (orientation: landscape){
+   .list-group{
+        background-color: rgb(87, 55, 15);
+    
+    }
+}
+@media screen and (max-width: 400px),
+screen and (orientation: landscape){
+   .a:hover{
+        color: rgb(237, 18, 179);
+    
+    }
+}
+
+
